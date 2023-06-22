@@ -6,9 +6,10 @@
 
 - React JS
 - Next.js
+- JSON Server for Backend
 - Tailwind and DaisyUI for styles
 - Icons for React Icons
-- JSON Server for backend
+- uuid for ID Generator
 
 ## Quick Start
 
