@@ -1,4 +1,4 @@
-import { ModalProps } from "../../types"
+import { ModalProps } from "../types"
 
 const Modal: React.FC<ModalProps> = ({ modalOpen, setModalOpen, children }) => {
   return (

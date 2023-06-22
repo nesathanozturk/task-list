@@ -4,7 +4,7 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { v4 as uuidv4 } from "uuid";
 import { FormEventHandler, useState } from "react";
 import { useRouter } from "next/navigation";
-import { addTask } from "../../api";
+import { addTask } from "../api";
 import Modal from "./Modal";
 
 const AddTask = () => {

@@ -1,7 +1,7 @@
-import { getTasks } from "../../api";
+import { getTasks } from "../api";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import TaskTable from "@/components/TaskTable"
+import TaskTable from "@/components/TaskTable";
 
 export default async function Home() {
 

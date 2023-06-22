@@ -1,4 +1,4 @@
-import { ITask, TaskListProps } from "../../types"
+import { TaskListProps } from "../types"
 import Task from "./Task"
 
 const TaskTable: React.FC<TaskListProps> = ({ tasks }) => {

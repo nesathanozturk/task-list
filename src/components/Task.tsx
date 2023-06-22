@@ -3,9 +3,9 @@
 import { AiFillEdit } from "react-icons/ai";
 import { FiTrash2 } from "react-icons/fi";
 import { FormEventHandler, useState } from "react";
-import { ITask, TaskProps } from "../../types";
+import { ITask, TaskProps } from "../types";
 import { useRouter } from "next/navigation";
-import { editTask, deleteTask } from "../../api";
+import { editTask, deleteTask } from "../api";
 import Modal from "./Modal";
 
 const Task: React.FC <TaskProps>= ({ task }) => {
@@ -49,8 +49,8 @@ const Task: React.FC <TaskProps>= ({ task }) => {
       <Modal modalOpen={openModalDelete} setModalOpen={setOpenModalDelete}>
           <h3 className="text-lg">Do you want to delete this task?</h3>
           <div className="modal-action">
-            <button onClick={() => handleDeleteTask(task.id)} className="btn btn-success">Yes</button>
             <button onClick={() => setOpenModalDelete(false)} className="btn btn-error">No</button>
+            <button onClick={() => handleDeleteTask(task.id)} className="btn btn-success">Yes</button>
           </div>
         </Modal>
     </td>

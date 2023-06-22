@@ -1,8 +1,8 @@
-import { ITask } from "./types";
+import { ITask } from "../types";
 
 const BASE_URL = 'http://localhost:3001';
 
-export const getTasks = async (): Promise<ITask> => {
+export const getTasks = async (): Promise<ITask[]> => {
    try {
     const res = await fetch(`${BASE_URL}/tasks`, {
         cache: "no-store", // => no-store yaptık çünkü her seferinde yeni veri çekmeli.
