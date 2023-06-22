@@ -1,4 +1,4 @@
-import { ITask } from "../types";
+import { ITask } from "@/types"
 
 const BASE_URL = 'http://localhost:3001';
 
