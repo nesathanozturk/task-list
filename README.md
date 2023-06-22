@@ -6,6 +6,7 @@
 
 - React JS
 - Next.js
+- Typescript
 - JSON Server for Backend
 - Tailwind and DaisyUI for styles
 - Icons for React Icons
