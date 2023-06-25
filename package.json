@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build && npm run json-server",
     "start": "next start",
     "lint": "next lint",
     "json-server": "json-server --watch src/data/tasks.json --port 3001"
